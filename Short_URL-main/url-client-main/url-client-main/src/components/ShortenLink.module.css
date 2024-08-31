@@ -1,0 +1,25 @@
+.list {
+  max-width: 800px;
+  margin: 40px auto;
+}
+.list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.list table thead tr {
+  background: #555;
+  color: #eee;
+}
+.list table thead tr th,
+.list table tbody tr td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.list table tbody tr:nth-child(odd) {
+  background: #eee;
+}
